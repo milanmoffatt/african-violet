@@ -1,0 +1,18 @@
+h1 {
+    margin: 40px auto;
+    text-align: center;
+  }
+   .list {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+   .list section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+   .list section p {
+    margin-top: 30px;
+  } 
