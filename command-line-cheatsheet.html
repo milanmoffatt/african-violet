@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Command line Cheatsheet</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" charset="utf-8" href="fonts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
-    <link rel="stylesheet" href="fonts.css" type="text/css" charset="utf-8" />
 </head>
 <h1>Command Line Cheat Sheet</h1>
   
@@ -21,15 +21,34 @@
 
 
   <section>
-      <h2 class="code">touch <span class="your-text">your-file-name</span></h2>
+      <h2 class="code">touch <span class="your-text">file-name</span></h2>
       <p>Makes a new file called whatever you typed</p>
       <div class="snippet">
         touch stylesheet.css
       </div>
       <div class="snippet">
-          touch farmers-markets.html
+          touch empty.txt
         </div>
     </section>
+
+    <section>
+        <h2 class="code">rm <span class="your-text">file-name</span></h2>
+        <p>Deletes file. Be careful, it doesn't prompt you if you're sure you want to delete and it's a destructive aka non-reversible action (unlike the DEL key when you're in Finder or Windows, which you can just undo or restore from trash.)</p>
+        <div class="snippet">
+          touch empty.txt
+        </div>
+      </section>
+      
+      <section>
+          <h2 class="code">open .</h2>
+          <p>Opens whatever directory you're currently in in Finder, or specific file if you type the file name after.</p>
+          <div class="snippet">
+              open .
+          </div>
+          <div class="snippet">
+              open index.html
+          </div>
+        </section>
 
     <section>
         <h2 class="code">ls</h2>
@@ -40,7 +59,7 @@
       </section>
 
       <section>
-          <h2 class="code">cd <span class="your-text">your-directory-name</span></h2>
+          <h2 class="code">cd <span class="your-text">directory-name</span></h2>
           <p>Stands for Change Directory, moves into directory you typed</p>
           <div class="snippet">
             cd my-website
@@ -128,11 +147,34 @@
                     </section>
 
                     <section>
-                        <h2 class="code">q or ESC</h2>
-                        <p>One of these usually allows you to exit whatever you're in</p>
+                        <h2 class="code">date</h2>
+                        <p>Just for fun. Displays current time and date</p>
                         <div class="snippet">
-                          q
+                          date
                         </div>
+                    </section>
+
+                    <section>
+                        <h2 class="code">clear</h2>
+                        <p>Clears out all recent output (feels like a clean slate in terminal), though you can still scroll up to see it.</p>
+                        <div class="snippet">
+                            clear
+                          </div>
+                      </section>
+
+                    <section>
+                        <h2 class="code">Helpful tips:</h2>
+                        <ul>
+                            <li><p>When you're typing file names (and many other things) on the command line, use the TAB key to autocomplete the word. This will save you tons of time. It will automatically fill in the remainder of the word once you've typed enough to uniquely identify it.</p></li>                        
+                            <li><p>Type <code>q</code> to exit a command</p></li>
+                            <li><p><code>CTRL+C</code> terminates most operations</p></li>
+                            <li><p>Press the up key to cycle through most recently used commands. Saves time if you want to enter something you recently entered.</p></li>
+                            <li><p><code>CMD+A</code> jumps to beginning of a line</p></li>
+                            <li><p><code>CMD+E</code> jumps to end of a line</p></li>
+                            <li><p><code>CMD+TAB</code> cycles through different applications on your computer</p></li>
+                            <li><p><code>CMD+N</code> opens a new terminal window</p></li>
+                            <li><p><code>CMD+T</code> opens new tab in terminal - these come in handy.</p></li>
+                        </ul>
                     </section>
 
   <!-- Add more as you learn them! -->

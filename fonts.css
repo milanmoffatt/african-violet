@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Roboto-Mono-Bold';
-    src: url('fonts/robotomono-bold-webfont.woff') format('woff');
+    src: url('fonts/robotomono-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'Roboto-Mono-Regular';
-    src: url('fonts/robotomono-regular-webfont.woff') format('woff');
+    src: url('fonts/robotomono-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
