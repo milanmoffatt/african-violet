@@ -3,57 +3,87 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Git Cheatsheet</title>
+  <title>Git Cheatsheet – SuperHi Command Line for Creatives course</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="fonts.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
 </head>
 <body>
   <h1>Git Cheat Sheet</h1>
   
   <div class="list">
     <section>
-      <h2><code>git init</code></h2>
+      <h2 class="code">git init</h2>
       <p>Initialize a git repository</p>
-    </section>
-  
-    <section>
-      <h2><code>git status</code></h2>
-      <p>Shows the status of your working directory</p>
-    </section>
-  
-    <section>
-      <h2><code>git add FILE</code></h2>
-      <p>Adds a specific file to be commits</p>
-    </section>
-  
-    <section>
-      <h2><code>git add .</code></h2>
-      <p>Adds every tracked change to be committed</p>
-    </section>
-  
-    <section>
-      <h2><code>git commit -m 'your commit message'</code></h2>
-      <p>Create a commit with the staged files, and adds a commit message</p>
-    </section>
-  
-    <section>
-      <h2><code>git log</code></h2>
-      <p>Shows your git history</p>
+      <div class="snippet">
+        git init
+      </div>
     </section>
 
     <section>
-      <h2><code>git checkout -b new-branch</code></h2>
-      <p>Creates a new branch (called new-branch) and moves onto it</p>
+      <h2 class="code">git status</h2>
+      <p>Shows the status of your working directory</p>
+      <div class="snippet">
+        git status
+      </div>
     </section>
-  
+
     <section>
-      <h2><code>git branch</code></h2>
-      <p>Lists current branches and highlights which one you are on</p>
+      <h2 class="code">git add <your filename here></h2>
+      <p>Adds a specific file to be committed</p>
+      <div class="snippet">
+        git add index.html
+      </div>
     </section>
-  
+
     <section>
-      <h2><code>git checkout this-branch</code></h2>
-      <p>Moves onto branch with the name 'this-branch'</p>
+      <h2 class="code">git add .</h2>
+      <p>Adds every tracked change to be committed</p>
+      <div class="snippet">
+        git add .
+      </div>
     </section>
+
+    <section>
+    <h2 class="code">git commit -m 'your commit message here'
+    </h2>
+    <p>Create a commit with the staged files, and adds a commit message</p>
+    <div class="snippet">
+      git commit -m 'updating stylesheets'
+    </div>
+  </section>
+
+  <section>
+  <h2 class="code">git log</h2>
+  <p>Shows your git history</p>
+  <div class="snippet">
+    git log
+  </div>
+</section>
+
+<section>
+  <h2 class="code">git checkout -b <your new branch name here></h2>
+  <p>Creates a new branch named whatever you typed and moves onto it</p>
+  <div class="snippet">
+    git checkout -b new-feature
+  </div>
+</section>
+  
+<section>
+  <h2 class="code">git branch</h2>
+  <p>ists current branches and highlights which one you are on</p>
+  <div class="snippet">
+    git branch
+  </div>
+</section>
+  
+<section>
+  <h2 class="code">git checkout <your branch name here></h2>
+  <p>Moves onto branch you just typed</p>
+  <div class="snippet">
+    git checkout amazing-new-feature
+  </div>
+</section>
   
     <!-- remember to add more (and commit more) as you go! -->
     <!-- <section>

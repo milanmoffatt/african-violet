@@ -1,18 +1,42 @@
+.snippet {
+    display: block;
+    overflow-x: auto;
+    padding: 24px 40px;
+    background: #fffbe5;
+    color: #111118;
+    font-family: 'Roboto-Mono-Regular', sans-serif;
+    font-size: 16px;
+}
+
 h1 {
-    margin: 40px auto;
+    margin: 40px 0 80px;
     text-align: center;
+    font-family: 'Roboto-Mono-Bold', sans-serif;
+    color: #111118;
   }
+
+h2 {
+  font-family: 'Roboto-Mono-Bold', sans-serif;
+  font-size: 21px;
+  margin: 0;
+  color: #111118;
+}
+
    .list {
     display: flex;
-    width: 90%;
+    width: 30%;
     margin: 0 auto;
     flex-direction: column;
   }
+
    .list section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    margin-bottom: 80px;
+    border-bottom: solid 3px #feda00;
   }
-   .list section p {
-    margin-top: 30px;
-  } 
+
+  p {
+    font-family: 'GT-America-Regular', sans-serif;
+    margin: 16px 0 24px;
+    font-size: 18px;
+    color: #33333a;
+  }
